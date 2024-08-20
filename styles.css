@@ -1,0 +1,101 @@
+body { 
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#navbar > header { 
+    font-size: 1.6rem;
+    display: block;
+    padding: 20px 30px;
+    margin: 20px;
+}
+
+#navbar { 
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    max-width: 260px;
+    top: 0;
+    left: 0;
+    border-color: rgba(0, 22, 22, 0.4);;
+    border-right: solid;
+    overflow-y: auto;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#navbar > ul {
+    list-style-type: none;  
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+#navbar > ul > li { 
+    text-decoration: none;
+    border-top: 1px solid;
+    width: 100%;
+}
+
+#navbar > ul > li > a {
+    text-decoration: none; 
+    color: black;
+    text-align: right;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    padding: 10px 30px;
+    text-align: left; 
+}
+
+#main-doc { 
+    max-width: 1000px;
+    width: 1000px;
+    position: relative;
+    left: 300px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal; 
+}
+
+section > header { 
+    font-size: 1.6rem;
+    text-align: left;
+    padding: 20px;
+}
+
+p { 
+    margin: 15px;
+    text-align: left;
+    color: rgba(0, 22, 22, 0.8);
+}
+
+article > ul > li { 
+    padding: 3px;
+    margin: 3px;
+    color: rgba(0, 22, 22, 0.8);
+}
+
+ code { 
+    background-color: #f7f7f7;
+    width: 10px; 
+    height: 10px;
+    box-sizing: 8px;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    left: 320px;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 100%;
+ }
+  }
